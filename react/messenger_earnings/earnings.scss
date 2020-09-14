@@ -1,0 +1,60 @@
+#messenger-earnings {
+    .thead,
+    .td {
+      padding: 14px 8px;
+      border: 1px solid #eee;
+      border-top: none;
+    }
+  
+    .table {
+      font-family: Source Sans Pro, sans-serif;
+      font-size: 0.875rem;
+    }
+  
+    .tr:nth-of-type(odd) {
+      background-color: #fafbfc;
+    }
+  
+    #table-container {
+      margin: 0 15px;
+    }
+  
+    .flex-1 {
+      flex: 1;
+    }
+  
+    .v-divider {
+      flex-grow: 0.7;
+      width: 1px;
+      background-color: black;
+    }
+  
+    .capitalize {
+      text-transform: capitalize;
+    }
+  
+    .messenger-header {
+      background-color: #5d9cec;
+    }
+  
+    .messenger-select {
+      max-width: 200px;
+    }
+  
+    .center-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #total-money {
+      padding: 0.625rem 0.9375rem;
+      margin-bottom: 0;
+    }
+  
+    .mp-sides-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
